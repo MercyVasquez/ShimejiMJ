@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuenta</title>
     <!-- Css -->
-    <link rel="stylesheet" href="./resources/csc/StyleCuenta.css">
+    <link rel="stylesheet" href="ShimejiMJ/resources/css/StyleCuenta.css">
     
 </head>
 <body>
