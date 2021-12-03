@@ -1,28 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
 :root {
-    --login-bg:#ffc15e;
-    --title-bg: #f7b05b;
-    --button-bg: #f7934c;
-    --light-pink: #cc5803;
-    --image-bg:  #1f1300;
+    --login-bg:#f8f3ff;
+    --title-bg: #9089cc;
+    --button-bg: #674baf;
+    --light-pink: #e882e8;
+    --image-bg:  #eadbff ;
 
-    
+
 }
 body {
     height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-image: linear-gradient(to top, #CC5803 0%, #CC5803 100%);
 }
 .login-container {
-    height: 43.75em;
+    height: 39em;
     width: 60em;
     margin: 6em auto;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    top:0px;
 }
+
 .login-info-container {
     width: 50%;
     display: flex;
@@ -34,18 +36,19 @@ body {
 }
 
 .image-container {
-    padding: 2rem;
+    padding: 0rem;
     width: 50%;
-    background-color: var(--image-bg);
+    background-color: #fff;
     box-sizing: border-box;
 }
 
 .title {
+    font-family: 'Balsamiq Sans', cursive;
     text-transform: capitalize;
     font-size: 2.25rem;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--title-bg);
+    color: #1F1300;
 }
 
 .social-login {
@@ -62,7 +65,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
     border-radius: 5px;
-    border: 1px solid var(--button-bg);
+    border: 1px solid #1F1300;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +113,7 @@ body {
 }
 
 .input:hover {
-    border: 2px solid var(--button-bg);
+    border: 2px solid #F7B05B;
 }
 
 .btn {
@@ -120,7 +123,7 @@ body {
     color: white;
     border: none;
     border-radius: 5px;
-    background-color: var(--button-bg);
+    background-color: #1F1300;
     cursor: pointer;
 }
 
@@ -129,7 +132,7 @@ body {
 }
 
 .span {
-    color: var(--light-pink);
+    color: #F7B05B;
     font-weight: 600;
     cursor: pointer;
 }
@@ -169,5 +172,5 @@ body {
     .login-info-container > p {
         margin: 0;
     }
-}
 
+}
