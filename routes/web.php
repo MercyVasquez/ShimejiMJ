@@ -14,13 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Route::get('/Mercy', CroshetController::class, 'Formulario');
-Route::get('/ShimejiMJ', function () {
+Route::get('/Registro', function () {
     return view('Register');
+ }); 
+ Route::get('/Login', function () {
+    return view('Login');
  }); 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/inicio', function () {
-    return view('Inicio');
+ Route::get('/carrito', function () {
+    return view('Carrito');
  }); 
