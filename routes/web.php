@@ -23,6 +23,7 @@ Route::get('/Registro', function () {
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/inicio', function () {
-    return view('Inicio');
+
+ Route::get('/carrito', function () {
+    return view('Carrito');
  }); 
