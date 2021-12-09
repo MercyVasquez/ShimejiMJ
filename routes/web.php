@@ -27,4 +27,3 @@ Route::get('/', function () {
  Route::get('/carrito', function () {
     return view('Carrito');
  }); 
- 
